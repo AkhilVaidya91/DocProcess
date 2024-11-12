@@ -14,6 +14,8 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+      - name: Testing
+        run: pip list
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
