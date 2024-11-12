@@ -2,6 +2,5 @@ streamlit
 PyPDF2
 openai
 llama-index
-unittest
 pytest-shutil
 pathlib
